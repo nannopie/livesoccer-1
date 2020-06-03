@@ -1,44 +1,100 @@
-<nav class="navbar nav bg" style="height: 80px;">
-    <div class="col-md-12" style="padding: unset;">
-        <p  class="head">พรีเมียร์ลีก อังกฤษ</p>
+<nav class="navbar-gradient">
+  <div class="col-md-12">
+    <img class="icon" src="assets/photo/PLwhite.png">&nbsp;
+    <h5 class="title">พรีเมียร์ลีค อังกฤษ</h5>
 
-        <div class="col-12 col-sm-6" style="padding: unset;">
-            <div class="card-header p-0 border-bottom-0">
-                <ul class="nav nav-tabs" id="custom-tabs-four-tab" role="tablist">
-
-                    <li class="nav-item">
-                        <a routerLink="/new2" routerLinkActive="active" class="nav-link" id="custom-tabs-four-home-tab"
-                            data-toggle="pill" href="#custom-tabs-four-home" role="tab"
-                            aria-controls="custom-tabs-four-home" aria-selected="true">ข่าว</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a routerLink="/analyze2" routerLinkActive="active" class="nav-link"
-                            id="custom-tabs-four-profile-tab" data-toggle="pill" href="#custom-tabs-four-profile"
-                            role="tab" aria-controls="custom-tabs-four-profile" aria-selected="false">วิเคราะห์</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a routerLink="/match" routerLinkActive="active" class="nav-link"
-                            id="custom-tabs-four-messages-tab" data-toggle="pill" href="#custom-tabs-four-messages"
-                            role="tab" aria-controls="custom-tabs-four-messages" aria-selected="false">แมช์</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a routerLink="/table2" routerLinkActive="active" class="nav-link"
-                            id="custom-tabs-four-settings-tab" data-toggle="pill" href="#custom-tabs-four-settings"
-                            role="tab" aria-controls="custom-tabs-four-settings" aria-selected="false">ตาราง</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a routerLink="/statis" routerLinkActive="active" class="nav-link"
-                            id="custom-tabs-four-settings-tab" data-toggle="pill" href="#custom-tabs-four-settings"
-                            role="tab" aria-controls="custom-tabs-four-settings" aria-selected="false">สถิติ</a>
-                    </li>
-
-                </ul>
-            </div>
+    <div class="dropdown">
+      <p class="text-right">ทีม</p>
+      <button class="dropbtn"><i class="fa fa-arrow-circle-down"></i></button>
+      <div class="dropdown-content text-center">
+        <div class="row">
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
         </div>
 
+        <div class="row">
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+        </div>
+
+        <div class="row">
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+        </div>
+
+        <div class="row">
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+          <a href="#"><img src="assets/photo/LFC.png"><br>ลิเวอร์พูล</a>
+        </div>
+        
+      </div>
     </div>
+  </div>
+
+  <div class="col-md-12 no-padding">
+    <div class="tab">
+      <ul class="nav headnav-tab text-center" id="tab">
+        <li class="active"><a data-toggle="tab" href="#inger1">ข่าว</a></li>
+        <li><a data-toggle="tab" href="#inger2">วิเคราะห์</a></li>
+        <li><a data-toggle="tab" href="#inger3">แมตซ์</a></li>
+        <li><a data-toggle="tab" href="#inger4">ตาราง</a></li>
+        <li><a data-toggle="tab" href="#inger5">สถิติ</a></li>
+      </ul>
+    </div>
+  </div>
+
 </nav>
+
+
+<!-- <nav class="navbar nav bg" style="height: 80px;">
+  <div class="col-md-12" style="padding: unset;">
+    <p class="head">พรีเมียร์ลีก อังกฤษ</p>
+
+    <div class="col-12 col-sm-6" style="padding: unset;">
+      <div class="card-header p-0 border-bottom-0">
+        <ul class="nav nav-tabs" id="custom-tabs-four-tab" role="tablist">
+
+          <li class="nav-item">
+            <a routerLink="/new2" routerLinkActive="active" class="nav-link" id="custom-tabs-four-home-tab"
+              data-toggle="pill" href="#custom-tabs-four-home" role="tab" aria-controls="custom-tabs-four-home"
+              aria-selected="true">ข่าว</a>
+          </li>
+
+          <li class="nav-item">
+            <a routerLink="/analyze2" routerLinkActive="active" class="nav-link" id="custom-tabs-four-profile-tab"
+              data-toggle="pill" href="#custom-tabs-four-profile" role="tab" aria-controls="custom-tabs-four-profile"
+              aria-selected="false">วิเคราะห์</a>
+          </li>
+
+          <li class="nav-item">
+            <a routerLink="/match" routerLinkActive="active" class="nav-link" id="custom-tabs-four-messages-tab"
+              data-toggle="pill" href="#custom-tabs-four-messages" role="tab" aria-controls="custom-tabs-four-messages"
+              aria-selected="false">แมช์</a>
+          </li>
+
+          <li class="nav-item">
+            <a routerLink="/table2" routerLinkActive="active" class="nav-link" id="custom-tabs-four-settings-tab"
+              data-toggle="pill" href="#custom-tabs-four-settings" role="tab" aria-controls="custom-tabs-four-settings"
+              aria-selected="false">ตาราง</a>
+          </li>
+
+          <li class="nav-item">
+            <a routerLink="/statis" routerLinkActive="active" class="nav-link" id="custom-tabs-four-settings-tab"
+              data-toggle="pill" href="#custom-tabs-four-settings" role="tab" aria-controls="custom-tabs-four-settings"
+              aria-selected="false">สถิติ</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</nav> -->

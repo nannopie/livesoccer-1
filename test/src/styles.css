@@ -8,3 +8,156 @@ body{
 .bg {
     background-color: green;
 }
+
+.navbar-gradient{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(#000000, rgb(111, 6, 138));
+    padding: 15px 0px 0px 0px;
+    color: #ffffff;
+}
+
+.navbar-gradient h5{
+  display: inline-block;
+}
+
+.navbar-gradient p.right{
+    display: inline-block;
+    /* float: right; */
+}
+
+ul.nav{
+    background-color: transparent;
+}
+
+
+@media (max-width: 768px){
+    .navbar-gradient .title{
+        font-size: 20px;
+    }
+
+    .navbar-gradient p{
+        font-size: 15px;
+        padding-top: 3px;
+    }
+}
+
+.tab{
+    padding-top: 10px;
+}
+
+.headnav-tab .col-md-2{
+    display: inline-block;
+    padding: 0px;
+}
+
+@media (min-width: 375px) and (max-width: 999px){
+    .headnav-tab .col-md-2{
+        display: inline-block;
+        padding: 0px;
+        width: 20%;
+    }
+}
+
+.headnav-tab a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.headnav-tab li{
+    width: 20%;
+}
+
+.headnav-tab li.active{
+    border-bottom: 5px solid #ffffff;
+}
+
+.nav > li > a:hover,
+.nav > li > a:active,
+.nav > li > a:focus {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.dropbtn {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+    padding-top: 7px;
+  }
+
+  .dropdown p{
+    display: inline-block
+  }
+  
+  .dropdown-content {
+    /* display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; */
+    display: none;
+    position: fixed;
+    background-color: #E5E7E9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0px;
+    padding: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content ,
+  .dropdown:target .dropdown-content{
+      display: block;
+    }
+
+.icon{
+    width: 25px;
+    height: 40px;
+}
+@media (min-width: 375px) and (max-width: 999px){
+    .icon{
+        width: 15px;
+        height: 25px;
+    }
+}
+
+.dropdown-content .row {
+    margin: 0px;
+}
+
+.dropdown-content .row a{
+    width: 25%;
+    padding: 5px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid #E5E7E9;
+}
+
+
+.dropdown-content img{
+    width: 70%;
+    text-align: center;
+    height: 80%;
+}
